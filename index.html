@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus Maia | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER: Onde vai seu nome/marca e o menu de abas -->
+    <header>
+        <div class="logo">MM</div>
+        <nav>
+            <ul class="nav-tabs">
+                <li class="tab-item active" data-tab="inicio">Início</li>
+                <li class="tab-item" data-tab="sobre">Sobre</li>
+                <li class="tab-item" data-tab="trabalhos">Trabalhos</li>
+                <li class="tab-item" data-tab="contato">Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Início (A Dobra Principal) -->
+<section id="inicio" class="tab-content active">
+    <div class="hero-container">
+        <!-- Parte do Texto -->
+        <div class="hero-text">
+            <h1>Se clicou, veio ao lugar certo.</h1>
+            <p>Transformando ideias em vídeos dinâmicos e designs que vendem.</p>
+            <a href="#" class="btn-hero-cta" onclick="document.querySelector('[data-tab=\'trabalhos\']').click(); return false;">
+                🚀 Conhecer Meus Trabalhos
+            </a>
+        </div>
+        
+        <!-- Parte do Personagem 3D -->
+        <div class="hero-avatar">
+            <!-- Substitua pelo caminho da imagem do seu personagem (o mesmo do "Sobre" ou outra pose legal) -->
+            <img src="img/PersonaMaiaSentado.png" alt="Mateus Maia 3D">
+        </div>
+    </div>
+</section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="tab-content">
+            <div class="about-container">
+        
+                <!-- Lado do Personagem 3D -->
+                <div class="about-avatar">
+                    <!-- Substitua pelo caminho da imagem do seu personagem com fundo transparente ou escuro -->
+                    <img src="img/PersonaMaia.wbm" alt="Mateus Maia 3D Avatar">
+                </div>
+
+                <!-- Lado do Texto -->
+                <div class="about-text">
+                    <h2>Prazer, Mateus Maia</h2>
+                    <p class="about-highlight">Editor de Vídeos & Designer Visual</p>
+                    
+                    <p>
+                        Sou um profissional focado em criar narrativas visuais que retêm a atenção do público e geram resultados. Unindo a precisão técnica da edição de vídeo com a estratégia do design gráfico, transformo ideias brutas em conteúdos dinâmicos, modernos e prontos para o mercado digital.
+                    </p>
+                    
+                    <p>
+                        Seja para elevar o nível das redes sociais do seu negócio, gerenciar a identidade visual da sua marca ou criar cortes de alta retenção, eu desenvolvo a solução sob medida para o que você precisa.
+                    </p>
+
+                    <!-- Pequenos blocos de foco/skills -->
+                    <div class="skills-tags">
+                        <span>⚡ Edição Dinâmica</span>
+                        <span>🎨 Branding</span>
+                        <span>📈 Retenção de Público</span>
+                        <span>✂️ Motion & Cortes</span>
+                    </div>
+             </div>
+
+    </div>
+</section>
+
+            <!-- Seção Trabalhos -->
+<section id="trabalhos" class="tab-content">
+    <div class="section-header">
+        <h2>Meus Trabalhos</h2>
+        <p>Projetos selecionados de edição de vídeo e design visual.</p>
+    </div>
+
+    <!-- Categoria 1: Edição de Vídeos -->
+    <div class="portfolio-category">
+        <h3>🎬 Edição de Vídeos</h3>
+        <div class="portfolio-grid">
+            
+            <!-- Card de Vídeo REELS (Proporção Vertical 9:16) -->
+            <div class="portfolio-card video-card vertical-video">
+                <div class="video-container vertical">
+                    <!-- Substitua o ID abaixo pelo ID do iframe do seu Reels ou Shorts real -->
+                    <iframe src="https://youtube.com/BFqdyaR4aWk?si=hpHSThdV4oVIaRYH" title="Reels Em Destaque" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="card-info">
+                    <h4>Cortes de Alta Retenção (Reels/Shorts)</h4>
+                    <p>Edição dinâmica vertical com foco em retenção nos primeiros segundos, legendas magnéticas e sound design imersivo.</p>
+                </div>
+            </div>
+
+            <!-- Card de Vídeo 2 (Mantido em 16:9 para variedade de formato) -->
+            <div class="portfolio-card video-card">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/BFqdyaR4aWk?si=hpHSThdV4oVIaRYH" title="Video Portfolio" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="card-info">
+                    <h4>Vídeo Institucional / Comercial</h4>
+                    <p>Edição para YouTube ou páginas de vendas, trabalhando cortes estratégicos e ritmo de narrativa profissional.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Categoria 2: Design Gráfico -->
+    <div class="portfolio-category">
+        <h3>🎨 Design & Social Media</h3>
+        <div class="portfolio-grid">
+            
+            <!-- Card do Flyer Real - Basquete Itatim -->
+            <div class="portfolio-card design-card">
+                <div class="image-container">
+                    <!-- Print do primeiro slide do carrossel da Itatim -->
+                    <img src="img/flyer.png" alt="Flyer Basquete Itatim - Game Day">
+                </div>
+                <div class="card-info">
+                    <h4>Basquete Itatim | Flyer "Game Day"</h4>
+                    <p>Identidade visual e design de flyer esportivo para redes sociais, focado em forte contraste, tipografia imponente e valorização dos atletas locais.</p>
+                    <a href="https://www.instagram.com/p/DL7rtC-snw7/?img_index=1" class="btn-project-link" target="_blank">Ver Post Original ↗</a>
+                </div>
+            </div>
+
+            <!-- Card de Design 2 (Reserva para outro projeto) -->
+            <div class="portfolio-card design-card">
+                <div class="image-container">
+                    <img src="https://via.placeholder.com/600x400" alt="Projeto de Design 2">
+                </div>
+                <div class="card-info">
+                    <h4>Artes para Social Media</h4>
+                    <p>Criação de criativos estáticos de alta conversão para campanhas de tráfego pago.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <!-- Seção Contato -->
+<section id="contato" class="tab-content">
+    <div class="contact-section">
+        <div class="section-header">
+            <h2>Vamos tirar sua ideia do papel?</h2>
+            <p>Seja para um projeto pontual ou uma parceria de longo prazo, estou pronto para ajudar.</p>
+        </div>
+
+        <!-- Card Central de Conversão -->
+        <div class="contact-card">
+            <h3>Orçamentos e Parcerias</h3>
+            <p>Clique no botão abaixo para abrir uma conversa direta comigo no WhatsApp. Costumo responder em poucos minutos!</p>
+            
+            <!-- Link do WhatsApp configurado com mensagem automática -->
+            <a href="https://wa.me/+5575982022556?text=Olá,%20Mateus!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20bater%20um%20papo%20sobre%20um%20projeto." 
+               class="btn-contact-page" 
+               target="_blank">
+                💬 Iniciar Conversa no WhatsApp
+            </a>
+        </div>
+
+        <!-- Outros Canais Alternativos -->
+        <div class="alt-contacts">
+            <p>Se preferir, me encontre também por aqui:</p>
+            <div class="alt-links">
+                <a href="mailto:contatomaiamateus@gmail.com" class="alt-link-item">📩 contatomaiamateus@gmail.com</a>
+                <a href="https://www.instagram.com/teeusmaia/" class="alt-link-item" target="_blank">📸 Instagram</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+    <a href="https://wa.me/+5575982022556?text=Olá,%20Mateus!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20bater%20um%20papo%20sobre%20um%20projeto." class="whatsapp-floating" target="_blank" aria-label="Falar no WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="28" height="28" fill="#ffffff">
+            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
